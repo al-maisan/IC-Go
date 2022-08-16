@@ -1,4 +1,4 @@
-module github.com/mix-labs/IC-Go
+module github.com/al-maisan/IC-Go
 
 go 1.16
 
