@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/fxamacker/cbor/v2"
 	"github.com/al-maisan/IC-Go/utils/identity"
 	"github.com/al-maisan/IC-Go/utils/idl"
 	"github.com/al-maisan/IC-Go/utils/principal"
+	"github.com/fxamacker/cbor/v2"
 )
 
 type Agent struct {
@@ -276,6 +276,7 @@ func (agent *Agent) signRequest(req Request) (*RequestID, []byte, error) {
 	if err != nil {
 		return nil, nil, err
 	}
+	fmt.Println(string(marshaledEnvelope))
 	return &requestID, marshaledEnvelope, nil
 }
 
