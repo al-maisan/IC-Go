@@ -3,8 +3,8 @@ package registry
 import (
 	"encoding/binary"
 	"fmt"
-	agent "github.com/mix-labs/IC-Go"
-	"github.com/mix-labs/IC-Go/utils/principal"
+	agent "github.com/al-maisan/IC-Go"
+	"github.com/al-maisan/IC-Go/utils/principal"
 	"testing"
 )
 

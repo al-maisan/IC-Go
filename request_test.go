@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	agent "github.com/mix-labs/IC-Go"
+	agent "github.com/al-maisan/IC-Go"
 )
 
 func TestNewRequestID(t *testing.T) {

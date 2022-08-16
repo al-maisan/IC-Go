@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/aviate-labs/leb128"
-	"github.com/mix-labs/IC-Go/utils/principal"
+	"github.com/al-maisan/IC-Go/utils/principal"
 )
 
 func encodeTypes(ts []Type, tdt *TypeDefinitionTable) ([]byte, error) {

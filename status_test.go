@@ -3,7 +3,7 @@ package agent_test
 import (
 	"testing"
 
-	agent "github.com/mix-labs/IC-Go"
+	agent "github.com/al-maisan/IC-Go"
 )
 
 func TestClientStatus(t *testing.T) {
